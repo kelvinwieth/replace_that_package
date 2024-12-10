@@ -1,3 +1,5 @@
+![Tests](https://github.com/kelvinwieth/replace_that_package/actions/workflows/tests.yaml/badge.svg)
+
 # Replace That Package
 
 Minimalist and easy-to-maintain code to replace popular packages across various programming languages. Simplify your dependencies without sacrificing functionality.
