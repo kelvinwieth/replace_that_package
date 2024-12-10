@@ -13,16 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Setup Dart
       uses: dart-lang/setup-dart@v1
       with:
         sdk: '3.5.3'
+    
+    - name: Change dir to tests/dart
+      run: cd tests/dart
 
-    - name: Install Dart Dependencies
+    - name: Install dependencies
       run: dart pub get
 
-    - name: Run Dart Tests
+    - name: Run tests
       run: dart test
