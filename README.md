@@ -14,9 +14,9 @@ Using external libraries can add complexity, dependencies, and maintenance overh
 
 ## Current Replacements
 
-| Language | Framework | Package | Code | Line Reduction |
-|----------|-----------|---------|------|----------------|
-| Dart     | Flutter   | [get_it](https://pub.dev/packages/get_it) | [get_it.dart](replacements/dart/get_it.dart) | ~2683 lines |
+| Language | Framework | Package                                   | Code                                         | Line Reduction |
+| -------- | --------- | ----------------------------------------- | -------------------------------------------- | -------------- |
+| Dart     | Flutter   | [get_it](https://pub.dev/packages/get_it) | [get_it.dart](replacements/dart/get_it.dart) | ~2683 lines    |
 
 > **Note:** "Line reduction" measures the total number of lines removed by replacing the original library.
 
